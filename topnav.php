@@ -2,7 +2,6 @@
 <script src="scripts.js"></script>
 <div class="topnavfixed">
 <div class="topnav">
-	<!--<a href="https://www.facebook.com/blackspire.amtgard/" target=_blank></a>-->
 	<a class="topactive" href="index.php">The Blackspire Handbook</a>
 	<a href="https://www.facebook.com/groups/Blackspire/" target=_blank>Facebook</a>
 	<a href="monarchy.php">Monarchy</a>
@@ -23,7 +22,6 @@
 </div>
 
 <div class="mobilenav">
-	<!--a href="fb://group/?id=147509598631875" target=_blank>Facebook</a-->
 	<a href="index.php">Handbook</a>
 	<a href="files.php">Files</a>
 	<a href="monarchy.php">Monarchy</a>
