@@ -333,3 +333,51 @@ border-bottom: none;
   #mybutton:hover {
     background-color:red;
   }
+
+  .container-jh {
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: bisque;
+  }
+
+  .container-jh__title {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 1rem;
+  }
+  .card {
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    color:bisque;
+  }
+
+  .card__title {
+    background-color: black;
+    padding: 1rem;
+    margin-top: 0px;
+  }
+
+  #mainHand {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  #offHand {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+  .card__image {
+    width: 100px;
+  }
+
+  .container-jh__button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 3rem;
+  }
