@@ -376,7 +376,7 @@ border-bottom: none;
     width: 100px;
   }
 
-  .container-jh__button {
+  #container-jh__button {
     grid-column-start: 1;
     grid-column-end: 3;
     height: 3rem;

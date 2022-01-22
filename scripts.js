@@ -49,10 +49,14 @@ $(document).ready(function(){
 
 
   $(document).on("click", "#container-jh__button", function(){
-    const mainHand = Math.floor(Math.random()*4);
+    const mainHand = Math.floor(Math.random()*5);
     const offHand = Math.floor(Math.random()*6);
     if(mainHand+offHand === 0){
       console.log("Great Weapon")
+      document.getElementById("wepMainHand").innerHTML = "Great Weapon";
+      document.getElementById("wepOffHand").innerHTML = "Great Weapon";
+      document.getElementById("wepMainHand__image").src = "images/jh-great.png";
+      document.getElementById("wepOffHand__image").src = "images/jh-great.png";
     } else{
       rollMainHand(mainHand);
       rollOffHand(offHand);
@@ -61,36 +65,63 @@ $(document).ready(function(){
 
   function rollMainHand(number){
     if(number === 0){
-      console.log("Mainhand dagger");
+      console.log("Mainhand Open hand");
+      document.getElementById("wepMainHand").innerHTML = "Open Hand";
+      document.getElementById("wepMainHand__image").src = "images/jh-freehand.png";
+
     } else if(number === 1){
       console.log("Mainhand short sword");
+      document.getElementById("wepMainHand").innerHTML = "Short Sword";
+      document.getElementById("wepMainHand__image").src = "images/jh-shortsword.png";
 
     } else if(number === 2){
       console.log("Mainhand flail");
+      document.getElementById("wepMainHand").innerHTML = "Flail";
+      document.getElementById("wepMainHand__image").src = "images/jh-flail.png";
 
     } else if(number === 3){
       console.log("Mainhand long sword");
+      document.getElementById("wepMainHand").innerHTML = "Long Sword";
+      document.getElementById("wepMainHand__image").src = "images/jh-longsword.png";
+
+    } else if(number === 4){
+      console.log("Mainhand dagger");
+      document.getElementById("wepMainHand").innerHTML = "Dagger";
+      document.getElementById("wepMainHand__image").src = "images/jh-dagger.png";
 
     }
   }
 
   function rollOffHand(number){
     if(number === 0){
-      console.log("offhand dagger");
+      console.log("offhand open hand");
+      document.getElementById("wepOffHand").innerHTML = "Open Hand";
+      document.getElementById("wepOffHand__image").src = "images/jh-freehand.png";
+
     } else if(number === 1){
       console.log("offhand short sword");
+      document.getElementById("wepOffHand").innerHTML = "Short Sword";
+      document.getElementById("wepOffHand__image").src = "images/jh-shortsword.png";
 
     } else if(number === 2){
       console.log("offhand flail");
+      document.getElementById("wepOffHand").innerHTML = "Flail";
+      document.getElementById("wepOffHand__image").src = "images/jh-flail.png";
 
     } else if(number === 3){
       console.log("offhand long sword");
+      document.getElementById("wepOffHand").innerHTML = "Long Sword";
+      document.getElementById("wepOffHand__image").src = "images/jh-longsword.png";
 
     } else if(number === 4){
       console.log("offhand shield");
+      document.getElementById("wepOffHand").innerHTML = "Shield";
+      document.getElementById("wepOffHand__image").src = "images/jh-shield.png";
 
     } else if(number === 5){
-      console.log("offhand open hand");
+      console.log("offhand dagger");
+      document.getElementById("wepOffHand").innerHTML = "Dagger";
+      document.getElementById("wepOffHand__image").src = "images/jh-dagger.png";
 
     }
 
