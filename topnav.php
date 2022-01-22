@@ -22,7 +22,6 @@
 </div>
 
 <div class="mobilenav">
-	<!--a href="fb://group/?id=147509598631875" target=_blank>Facebook</a-->
 	<a href="index.php">Handbook</a>
 	<a href="files.php">Files</a>
 	<a href="monarchy.php">Monarchy</a>
